@@ -1,0 +1,29 @@
+{
+    "name": "zunfuyuzora/ukyo-uploader",
+    "description": "Uploading file safely with help of Ukyo",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ukyo\\Air\\": "/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zun Fuyuzora",
+            "email": "zunfuyuzora@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ukyo\\Uploader\\ServiceProvider"
+            ],
+            "aliases": {
+                "UkyoUploader": "Ukyo\\Uploader\\Facade"
+            }
+        }
+    }
+}

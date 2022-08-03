@@ -1,0 +1,19 @@
+{
+    "name": "zunfuyuzora/biru",
+    "description": "Base of Blue package development",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ukyo\\": "src/Ukyo"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zun Fuyuzora",
+            "email": "zunfuyuzora@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

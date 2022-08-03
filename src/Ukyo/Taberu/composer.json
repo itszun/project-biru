@@ -1,0 +1,29 @@
+{
+    "name": "zunfuyuzora/ukyo-taberu",
+    "description": "Ukyo help you serve datatable for jquery-datatables",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ukyo\\Taberu\\": "/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zun Fuyuzora",
+            "email": "zunfuyuzora@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ukyo\\Taberu\\ServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+            }
+        }
+    }
+}

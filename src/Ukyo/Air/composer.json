@@ -1,0 +1,29 @@
+{
+    "name": "zunfuyuzora/ukyo-air",
+    "description": "Create REST API easily with Ukyo AIR (Application Is REST-API)",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ukyo\\Air\\": "/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zun Fuyuzora",
+            "email": "zunfuyuzora@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ukyo\\Air\\ServiceProvider"
+            ],
+            "aliases": {
+                "UkyoAir": "Ukyo\\Air\\Facade"
+            }
+        }
+    }
+}
